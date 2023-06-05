@@ -1,10 +1,6 @@
-import classNames from 'classnames';
-
 export default function H2({ children, className }){
 
-  const finalClasses = classNames(className)
-
   return(
-    <h2 className={finalClasses}>{children}</h2>
+    <h2 className={className}>{children}</h2>
   );
 }
