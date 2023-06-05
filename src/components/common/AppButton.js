@@ -8,8 +8,8 @@ export default function AppButton({ className, primary, rounded, purple, dark, w
     'bg-primary-purple text-white': purple,
     'bg-white text-primary-dark': white,
     'bg-primary-light text-primary-dark': gray,
-    'bg-primary-dark text-white w-32 h-7 rounded-sm px-4 py-1.5': dark,
-    'w-8 h-8 rounded-full bg-secondary-light text-primary-dark': rounded
+    'bg-primary-dark text-white h-7 rounded-sm px-4 py-1.5': dark,
+    'w-8 h-8 rounded-full bg-secondary-light text-primary-dark text-xs': rounded
   })
 
   return(
