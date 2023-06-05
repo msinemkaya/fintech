@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 /* * {
   outline: 1px solid red;
 } */
+
+* {
+  @apply font-poppins
+}
 
 .link-shadow {
   text-shadow: 0px 4px 3px #00000040;
