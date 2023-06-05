@@ -3,7 +3,7 @@ import Button from '../base/Button';
 
 export default function AppButton({ className, primary, rounded, purple, dark, white, gray, children }){
 
-  const finalClasses = classNames(className, 'font-bold hover:scale-110 transition-all duration-500', {
+  const finalClasses = classNames(className, 'font-bold flex items-center hover:scale-110 transition-all duration-500', {
     'w-[11.5rem] h-12 px-8 py-3 rounded-sm': primary,
     'bg-primary-purple text-white': purple,
     'bg-white text-primary-dark': white,
