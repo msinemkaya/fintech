@@ -1,9 +1,9 @@
-import A from '../base/A'
+import { Link } from 'react-router-dom';
 
-export default function NavLink({ children }){
+export default function NavLink({ children, to }){
   return(
-    <A to='#' className='font-medium text-primary-dark link-shadow hover:text-primary-purple'>
+    <Link to={to} className='font-medium text-primary-dark link-shadow hover:text-primary-purple'>
       {children}
-    </A>
+    </Link>
   );
 }
