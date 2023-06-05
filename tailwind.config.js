@@ -13,6 +13,9 @@ module.exports = {
         'secondary-light': '#F7F9FA',
         'primary-blue': '#406785',
         'primary-grey': '#8492A0'
+      },
+      fontFamily: {
+        'poppins': "'Poppins', sans-serif",
       }
     },
   },
