@@ -32,7 +32,7 @@ export default function Navbar(){
   ]
 
   return(
-    <FlexBox className='justify-between h-16 py-2 px-6 '>
+    <FlexBox className='justify-between h-16 py-2 px-6 sticky top-0 bg-background-base z-50'>
       <Container>
         <Logo className='h-12'/>
       </Container>
