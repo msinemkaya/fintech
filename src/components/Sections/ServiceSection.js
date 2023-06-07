@@ -30,7 +30,7 @@ export default function ServiceSection(){
   ]
 
   return(
-    <AppSection>
+    <AppSection className='lg:h-nav-screen'>
         <GridBox className='grid-cols-2 lg:grid-cols-4 w-full lg:grid-rows-1 gap-y-6'>
           <Container className='bg-primary-dark text-white relative overflow-hidden px-7 pt-16'>
             <Polygon className='absolute -bottom-1/3 -left-8 h-4/5 w-4/5'/>

@@ -9,7 +9,7 @@ import GridBox from '../common/GridBox';
 
 export default function HeadingSection(){
   return(
-    <AppSection className='py-8'>
+    <AppSection className='py-8 h-nav-screen'>
         <GridBox className='grid-cols-2 gap-4 w-full grid-rows-1 h-full'>
           <FlexBox className='flex-col justify-center !items-start'>
             <H1 className='font-extrabold text-6xl mb-3'>
