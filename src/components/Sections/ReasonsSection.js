@@ -4,7 +4,6 @@ import Span from '../base/Span';
 import P from '../base/P';
 import H3 from '../base/heading/H3';
 import H5 from '../base/heading/H5';
-import FlexBox from '../common/FlexBox'
 import Img from '../base/Img'
 import Layout from '../../images/Layout.png'
 import GridBox from '../common/GridBox';
