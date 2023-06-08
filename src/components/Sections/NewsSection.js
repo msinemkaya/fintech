@@ -35,7 +35,7 @@ export default function NewsSection(){
   ]
 
   return(
-    <Section className='h-nav-screen p-6'>
+    <Section className='min-h-nav-screen p-6'>
       <FlexBox className='flex-wrap gap-y-3'>
         <Container className='grow h-64 p-6 ml-3 bg-primary-dark'>
           <H3 className='font-extrabold text-4xl text-white'>News</H3>
