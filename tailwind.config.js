@@ -16,6 +16,15 @@ module.exports = {
       },
       fontFamily: {
         'poppins': "'Poppins', sans-serif",
+      },
+      screens: {
+        'semi-md': '850px'
+      },
+      height: {
+        'nav-screen': 'calc(100vh - 4rem)'
+      },
+      minHeight: {
+        'nav-screen': 'calc(100vh - 4rem)'
       }
     },
   },
