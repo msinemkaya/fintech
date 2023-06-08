@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
 import HomePage from './components/pages/HomePage';
+import AboutPage from './components/pages/Aboutpage';
 
 function App() {
 
@@ -9,10 +10,10 @@ function App() {
       path: '/',
       element: <HomePage/>
     },
-    // {
-    //   path: '/about',
-    //   element: <HomePage/>
-    // },
+    {
+      path: '/about',
+      element: <AboutPage/>
+    },
     // {
     //   path: '/products',
     //   element: <HomePage/>
