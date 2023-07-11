@@ -30,8 +30,8 @@ export default function Contact(){
   }
 
   return(
-    <FlexBox className='bg-primary-dark px-32 py-14 justify-center text-white'>
-      <Container className='basis-4/6'>
+    <FlexBox className='bg-primary-dark md:px-32 px-12 py-14 justify-center text-white sm:flex-row flex-col gap-y-16'>
+      <Container className='sm:basis-4/6 w-full'>
         <H3 className='font-extrabold text-4xl mb-2'>{content}</H3>
         <P className='mb-6'>You can reach us anytime via <Span className='font-bold'>info@stackpair.com</Span></P>
         <FlexBox className='gap-3'>
@@ -40,7 +40,7 @@ export default function Contact(){
           ))}
         </FlexBox>
       </Container>
-      <Form className='basis-2/4 spa' onSubmit={handleSubmit}>
+      <Form className='sm:basis-2/4 w-full' onSubmit={handleSubmit}>
         <ContactInput type='email' label='Email' placeholder='info@email.com' value={email} onChange={handleMail}/>
         <ContactInput type='text' label='How can we help?' placeholder='Tell us a little about your needs' value={help} onChange={handleHelp}/>
         <AppButton primary white className='origin-left'>Submit</AppButton>

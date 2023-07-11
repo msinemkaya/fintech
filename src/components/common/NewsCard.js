@@ -14,7 +14,7 @@ export default function NewsCard({ news }){
           <P className='overflow-hidden text-ellipsis line-clamp-4 mb-3 basis-1'>{news.text}</P>
           <LearnMore />
         </Container>
-        <Img url={news.img} className='w-64 hidden sm:block'/>
+        <Img url={news.img} className='w-64 hidden sm:block ml-auto'/>
       </FlexBox>
     </Container>
   );

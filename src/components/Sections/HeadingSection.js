@@ -10,15 +10,15 @@ import GridBox from '../common/GridBox';
 export default function HeadingSection(){
   return(
     <AppSection className='py-8 h-nav-screen'>
-        <GridBox className='grid-cols-2 gap-4 w-full grid-rows-1 h-full'>
-          <FlexBox className='flex-col justify-center !items-start'>
+        <GridBox className='sm:grid-cols-2 gap-4 w-full grid-rows-1 h-full'>
+          <FlexBox className='flex-col justify-center sm:!items-start items-center text-center sm:text-left'>
             <H1 className='font-extrabold text-6xl mb-3'>
               Financial solutions that you need
             </H1>
             <Span className='text-xl font-light opacity-90 mb-8 block'>We will find the right solution precisely for your business </Span>
             <AppButton primary purple>Contact us</AppButton>
           </FlexBox>
-          <Img url={headerimage} className='object-fit h-full justify-self-end'/>
+          <Img url={headerimage} className='object-fit h-full justify-self-end hidden sm:block'/>
         </GridBox>
     </AppSection>
   );
