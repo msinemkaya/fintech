@@ -12,7 +12,7 @@ export default function AboutInfoCard({ count, children }){
         <Poly className='absolute top-0'/>
         <P className='text-white font-extrabold text-4xl z-10'>{count}</P>
       </Container>
-      <Span className='text-xs opacity-90 shrink'>{children}</Span>
+      <Span className='text-xs opacity-90 shrink ml-2'>{children}</Span>
     </FlexBox>
   );
 }

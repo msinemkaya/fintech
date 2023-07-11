@@ -13,7 +13,7 @@ export default function ServiceCard({ card }){
       <H5 className='text-2xl font-semibold mt-8 mb-5'>{card.heading}</H5>
       <P className='mb-6'>{card.content}</P>
       <Container className='mt-auto'>
-        <LearnMore to='#'/>
+        <LearnMore/>
       </Container>
     </FlexBox>
   );

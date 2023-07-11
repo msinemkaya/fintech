@@ -1,6 +1,5 @@
 import Container from '../base/Container';
 import H3 from '../base/heading/H3';
-import AppSection from '../common/AppSection'
 import FlexBox from '../common/FlexBox';
 import NewsCard from '../common/NewsCard';
 import News1 from '../../images/News1.png';

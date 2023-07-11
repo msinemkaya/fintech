@@ -1,4 +1,3 @@
-import Container from '../base/Container';
 import Span from '../base/Span';
 import AboutInfoCard from '../common/AboutInfoCard';
 import AppSection from '../common/AppSection';
@@ -24,7 +23,7 @@ export default function AboutHeadingSection(){
 
   return(
     <AppSection className='flex-col gap-24'>
-      <FlexBox className='gap-8'>
+      <FlexBox className='gap-8 mt-24'>
         <PrimaryHeading className='basis-3/5 mx-auto py-36 sm:py-0'>
           We are experts in <Span className='text-primary-purple'>fintech solutions</Span>
         </PrimaryHeading>
