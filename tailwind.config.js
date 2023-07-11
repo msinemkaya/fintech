@@ -25,6 +25,9 @@ module.exports = {
       },
       minHeight: {
         'nav-screen': 'calc(100vh - 4rem)'
+      },
+      fontSize: {
+        '5.5xl': '3.25rem'
       }
     },
   },
