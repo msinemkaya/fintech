@@ -21,10 +21,14 @@ module.exports = {
         'semi-md': '850px'
       },
       height: {
-        'nav-screen': 'calc(100vh - 4rem)'
+        'nav-screen': 'calc(100vh - 4rem)',
+        'card': '48rem',
       },
       minHeight: {
         'nav-screen': 'calc(100vh - 4rem)'
+      },
+      fontSize: {
+        '5.5xl': '3.25rem'
       }
     },
   },

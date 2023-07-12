@@ -12,7 +12,7 @@ export default function NewsCard({ news }){
       <FlexBox className='gap-3'>
         <Container className='basis-1/2 shrink w-full'>
           <P className='overflow-hidden text-ellipsis line-clamp-4 mb-3 basis-1'>{news.text}</P>
-          <LearnMore />
+          <LearnMore text='Read More'/>
         </Container>
         <Img url={news.img} className='w-64 hidden sm:block ml-auto'/>
       </FlexBox>
