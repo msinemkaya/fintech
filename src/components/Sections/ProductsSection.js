@@ -11,7 +11,7 @@ import GridBox from '../common/GridBox';
 export default function ProductsSection({ reverst, title, advantages, children, image }){
   return(
     <Section>
-      <GridBox className='grid-cols-2 items-center m-8 justify-items-center gap-8'>
+      <GridBox className='semi-md:grid-cols-2 items-center m-8 justify-items-center gap-8'>
         <Container>
             <H3 className='text-4xl font-extrabold'>{title}</H3>
             <P className='my-6'>{children}</P>
@@ -22,7 +22,7 @@ export default function ProductsSection({ reverst, title, advantages, children, 
             </FlexBox>
             <AppButton purple primary>Get it</AppButton>
         </Container>
-        <Img url={image} className={reverst && '-order-1'}/>
+        <Img url={image} className={`${reverst && '-order-1'} hidden semi-md:block`}/>
       </GridBox>
     </Section>
   );
