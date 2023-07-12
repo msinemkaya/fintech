@@ -2,6 +2,7 @@ import Footer from '../Sections/Footer';
 import ProductsHeadingSection from '../Sections/ProductsHeadingSection';
 import UseCasesSection from '../Sections/UseCasesSection';
 import Products from '../Sections/Products';
+import AssociatedServicesSection from '../Sections/AssociatedServicesSection';
 
 export default function ProductsPage({  }){
 
@@ -40,6 +41,7 @@ export default function ProductsPage({  }){
     <>
       <ProductsHeadingSection/>
       <Products/>
+      <AssociatedServicesSection/>
       <UseCasesSection cases={cases}/>
       <Footer/>
     </>
