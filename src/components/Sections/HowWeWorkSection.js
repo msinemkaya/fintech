@@ -16,7 +16,7 @@ export default function HowWeWorkSection({  }){
   return(
     <AppSection className='flex-col gap-14 mt-28'>
       <H3 className='text-4xl font-extrabold'>How we work & <Span className='text-primary-purple'>what you get</Span></H3>
-      <FlexBox className='!items-start'>
+      <FlexBox className='!items-start md:flex-row flex-col'>
         <HowWeWorkCard title='You contact us' buttonText='Contact us'>
           You can get to us via:
           <List list={list} listClasses='list-disc list-inside'/>

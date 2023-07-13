@@ -18,7 +18,8 @@ module.exports = {
         'poppins': "'Poppins', sans-serif",
       },
       screens: {
-        'semi-md': '850px'
+        'semi-md': '850px',
+        'semi-sm': '675px'
       },
       height: {
         'nav-screen': 'calc(100vh - 4rem)',
