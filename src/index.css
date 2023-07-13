@@ -19,3 +19,19 @@ html, body {
 .link-shadow {
   text-shadow: 0px 4px 3px #00000040;
 }
+
+.blognews:nth-child(4n) {
+  grid-column: span 3;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.blognews:nth-child(4n) img {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.blognews:nth-child(8n) img {
+  order: 2;
+}
