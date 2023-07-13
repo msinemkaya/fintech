@@ -35,3 +35,11 @@ html, body {
 .blognews:nth-child(8n) img {
   order: 2;
 }
+
+.menu-flags #rfs-btn {
+  border: none;
+}
+
+.menu-flags #rfs-btn::after {
+  display: none;
+}

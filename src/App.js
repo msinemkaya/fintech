@@ -4,6 +4,7 @@ import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/Aboutpage';
 import ProductsPage from './components/pages/ProductsPage';
 import BlogPage from './components/pages/BlogPage';
+import ContactUsPage from './components/pages/ContactUsPage';
 
 function App() {
 
@@ -24,10 +25,10 @@ function App() {
       path: '/blog',
       element: <BlogPage/>
     },
-    // {
-    //   path: '/contact',
-    //   element: <HomePage/>
-    // },
+    {
+      path: '/contact',
+      element: <ContactUsPage/>
+    },
   ]
 
   return (
