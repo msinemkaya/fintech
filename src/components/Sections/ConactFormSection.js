@@ -6,7 +6,7 @@ import ContactForm from '../common/ContactForm';
 export default function ContactFormSection(){
   return(
     <Section className='container mx-auto px-8 my-14'>
-      <GridBox className='grid-cols-2'>
+      <GridBox className='md:grid-cols-2 grid-cols-1 gap-y-20'>
         <ContactInfos/>
         <ContactForm/>
       </GridBox>
