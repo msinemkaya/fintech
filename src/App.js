@@ -3,6 +3,7 @@ import Navbar from './components/common/Navbar';
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/Aboutpage';
 import ProductsPage from './components/pages/ProductsPage';
+import BlogPage from './components/pages/BlogPage';
 
 function App() {
 
@@ -19,10 +20,10 @@ function App() {
       path: '/products',
       element: <ProductsPage/>
     },
-    // {
-    //   path: '/blog',
-    //   element: <HomePage/>
-    // },
+    {
+      path: '/blog',
+      element: <BlogPage/>
+    },
     // {
     //   path: '/contact',
     //   element: <HomePage/>

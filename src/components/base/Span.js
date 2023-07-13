@@ -1,6 +1,6 @@
-export default function Span({ children, className }){
+export default function Span({ children, className, ...rest }){
   return(
-    <span className={className}>
+    <span className={className} {...rest}>
       {children}
     </span>
   );
