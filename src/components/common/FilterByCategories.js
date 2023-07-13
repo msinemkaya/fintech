@@ -12,7 +12,7 @@ export default function FilterByCategories({ categories }){
       </P>
       <FlexBox className='gap-3 flex-wrap'>
         {categories.map((category, index) => (
-          <CategoryButton>
+          <CategoryButton key={index}>
             {category}
           </CategoryButton>
         ))}
