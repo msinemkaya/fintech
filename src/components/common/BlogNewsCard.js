@@ -9,9 +9,9 @@ import Container from '../base/Container';
 export default function BlogNewsCard({ img, topics, date, title, children }){
   return(
     <Container className='p-8 blognews'>
-      <Img url={img} className='mb-6'/>
+      <Img url={img} className='mb-6 w-full'/>
       <Container>
-        <FlexBox className='gap-3 newsflexbox'>
+        <FlexBox className='gap-3 flex-wrap newsflexbox'>
           {topics.map((topic, index) => (
             <Badge key={index}>
               {topic}
@@ -21,7 +21,7 @@ export default function BlogNewsCard({ img, topics, date, title, children }){
         <Span className='py-4 text-xs text-primary-blue font-bold self-start'>
           {date}
         </Span>
-        <H5 className='text-2xl font-semibold'>{title}</H5>
+        <H5 className='semi-md:text-2xl text-xl font-semibold'>{title}</H5>
         <P className='line-clamp-4'>
           {children}
         </P>

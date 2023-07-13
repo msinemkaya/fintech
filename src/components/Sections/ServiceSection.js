@@ -31,8 +31,8 @@ export default function ServiceSection(){
 
   return(
     <AppSection className='lg:h-nav-screen'>
-        <GridBox className='grid-cols-2 lg:grid-cols-4 w-full lg:grid-rows-1 gap-y-6'>
-          <Container className='bg-primary-dark text-white relative overflow-hidden px-7 pt-16'>
+        <GridBox className= 'sm:grid-cols-2 lg:grid-cols-4 w-full lg:grid-rows-1 gap-y-6'>
+          <Container className='bg-primary-dark text-white relative overflow-hidden px-7 pt-16 py-20 sm:py-0'>
             <Polygon className='absolute -bottom-1/3 -left-8 h-4/5 w-4/5'/>
             <H3 className='text-3xl md:text-4xl font-extrabold mb-2'>Our services</H3>
             <P>We are top solutions provider in the area</P>

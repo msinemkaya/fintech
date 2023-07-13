@@ -28,7 +28,7 @@ export default function NewsHeadingSection(){
   return(
     <Section className='my-16'>
       <H2 className='font-extrabold text-5xl text-center'>News</H2>
-      <FlexBox className='my-14 px-8 gap-3'>
+      <FlexBox className='my-14 px-8 gap-3 flex-col md:flex-row'>
         <FilterByCategories categories={categories}/>
         <SearchBar value={value} onChange={handleSearch}/>
       </FlexBox>

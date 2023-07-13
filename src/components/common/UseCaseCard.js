@@ -7,7 +7,7 @@ export default function UseCaseCard({ dark, item }){
 
   const finalClasses = classNames('p-6 bg-primary-light rounded-sm w-52', {
     '!bg-primary-dark text-white': dark,
-    'h-36': !item.company
+    'h-36 hidden semi-sm:block': !item.company
   }
   )
 

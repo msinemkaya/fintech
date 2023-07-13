@@ -6,7 +6,7 @@ import {ReactComponent as Poly} from '../../images/Polygon.svg';
 
 export default function ProductsHeadingSection(){
   return(
-    <AppSection className='relative'>
+    <AppSection className='relative md:flex-row flex-col gap-y-12'>
     <Poly className='absolute w-3/4 h-3/4 rotate-45 -left-1/3'/>
       <PrimaryHeading className='basis-full z-10'>
         Choose the <Span className='text-primary-purple'> product that fits you </Span>
