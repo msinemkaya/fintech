@@ -10,12 +10,34 @@ import AppButton from './AppButton';
 
 export default function ContactForm(){
   const [selected, setSelected] = useState('US');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [help, setHelp] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+  }
+
+  const handleNameChange = ({target}) => {
+    setName(target.value)
+  }
+  const handleEmailChange = ({target}) => {
+    setEmail(target.value)
+  }
+  const handlePhoneChange = ({target}) => {
+    setPhone(target.value)
+  }
+  const handleHelpChange = ({target}) => {
+    setHelp(target.value)
+  }
+
   return(
-    <Form>
-      <ContactInput type='text' label='Name' placeholder='Your name'/>
-      <ContactInput type='email' label='Email' placeholder='info@email.com'/>
+    <Form onSubmit={handleSubmit}>
+      <ContactInput type='text' label='Name' placeholder='Your name' value={name} onChange={handleNameChange}/>
+      <ContactInput type='email' label='Email' placeholder='info@email.com' value={email} onChange={handleEmailChange}/>
       <Container className='relative'>
-        <ContactInput type='tel' label='Phone' className='pl-24'/>
+        <ContactInput type='tel' label='Phone' className='pl-24' value={phone} onChange={handlePhoneChange}/>
         <ReactFlagsSelect
           selected={selected}
           onSelect={(code) => setSelected(code)}
@@ -28,7 +50,7 @@ export default function ContactForm(){
           className="menu-flags !absolute top-6 -left-3"
         />
       </Container>
-      <ContactInput type='text' label='How can we help?' placeholder='Tell us a little about your needs'/>
+      <ContactInput type='text' label='How can we help?' placeholder='Tell us a little about your needs' value={help} onChange={handleHelpChange}/>
       <Container>
         <Span className='font-medium mb-8 block'>What is your priority?</Span>
         <Checkbox id='turnkey' label='Turnkey Fintech Solutions'/>
