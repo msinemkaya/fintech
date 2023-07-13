@@ -15,7 +15,7 @@ export default function SelectionButton({ selection }){
           <Img url={selection.icon} className='z-20'/>
         </FlexBox>
         <FlexBox className='flex-col !items-start'>
-          <P className='text-2xl font-bold whitespace-nowrap group-hover:text-primary-purple'>{selection.text}</P>
+          <P className='sm:text-2xl text-xl font-bold whitespace-nowrap group-hover:text-primary-purple'>{selection.text}</P>
           {selection.name && (
             <Span className='mb-2 text-primary-grey font-bold'>{selection.name}</Span>
           )}
