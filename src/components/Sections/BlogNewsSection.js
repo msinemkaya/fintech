@@ -98,7 +98,7 @@ export default function BlogNewsSection({  }){
   ]
 
   return(
-    <GridBox className='grid-cols-3'>
+    <GridBox className='semi-md:grid-cols-3 sm:grid-cols-2 '>
       {news.map((news,index) => (
         <BlogNewsCard img={news.img} topics={news.topics} title={news.title} date={news.date} key={index}>
           {news.content}
