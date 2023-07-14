@@ -4,7 +4,7 @@ import newsImage from '../../images/BlogNews.png'
 import bigNewsImage from '../../images/BigNewsCard.png'
 
 
-export default function BlogNewsSection({  }){
+export default function BlogNewsSection(){
 
   const news = [
     {

@@ -20,7 +20,7 @@ export default function useContactHeading(){
         setContent('Contact us')
         break
     }
-  },[])
+  },[location.pathname])
 
   return content
 }

@@ -4,7 +4,7 @@ import email from '../../images/email.svg'
 import dev from '../../images/dev.svg'
 import sale from '../../images/sale.svg'
 
-export default function Contacts({  }){
+export default function Contacts(){
 
   const selections = [
     {

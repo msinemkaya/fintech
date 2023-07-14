@@ -4,7 +4,7 @@ import UseCasesSection from '../Sections/UseCasesSection';
 import Products from '../Sections/Products';
 import AssociatedServicesSection from '../Sections/AssociatedServicesSection';
 
-export default function ProductsPage({  }){
+export default function ProductsPage(){
 
   const cases = [
     {

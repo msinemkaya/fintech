@@ -5,7 +5,7 @@ import AppSection from '../common/AppSection';
 import FlexBox from '../common/FlexBox';
 import HowWeWorkCard from '../common/HowWeWorkCard';
 
-export default function HowWeWorkSection({  }){
+export default function HowWeWorkSection(){
 
   const list = [
     "email info@stackpair.com",
